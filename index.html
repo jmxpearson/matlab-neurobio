@@ -4,4 +4,5 @@ title: Quantitative Neurobiology
 desc: Matlab notes, assignments, and code
 ishome: yes
 ---
-{% include README.md %}
+{% capture my_include %}{% include README.md %}{% endcapture %}
+{{ my_include | markdownify }}
