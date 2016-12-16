@@ -22,4 +22,6 @@ So here goes:
 6. Write a function that takes as input the array of structs `S` and returns a cell array equal to the number of fields of each struct in `S`. Each element of the returned cell array should collect all the values from the corresponding field in `S`. For example, if the elements of `S` are points with `x` and `y` fields, the returned value would be a cell array with two cells, one containing a vector of all the `x` values, the other all `y` values.
 
 Here's another test:
+{% raw %}
 $$ x^2 + Y^2 = \phi^2 $$
+{% endraw %}
