@@ -3,10 +3,6 @@ layout: default
 title: "Quantitative Neurobiology"
 ishome: yes
 ---
-<head>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
-</head>
-
 {% for post in site.categories.blog %}
   <div class="blog-post">
     <h1 class="blog-post-title">{{ post.post_title }}</h1>
@@ -23,3 +19,7 @@ ishome: yes
     {% endif %} -->
   </div>
 {% endfor %}
+
+{% raw %}
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+{% endraw %}
