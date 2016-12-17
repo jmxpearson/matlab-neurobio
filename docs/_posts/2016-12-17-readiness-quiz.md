@@ -9,7 +9,7 @@ category: blog
 
 First of all, **don't panic**. This quiz is supposed to be challenging. My goal is to figure out how much basic programming you're familiar with in Matlab so we can calibrate the course properly. My goal is that the material here should be doable for anyone who's completed something like [this](https://www.coursera.org/learn/matlab) online class.
 
-You can download the data for all the questions [here](data/pretest/). Data for each question are in the corresponding csv file, which you can load into Matlab. This is a self-assessment. You do not need to mail your answers to me, but feel free to contact me to ask questions if you're stuck. Feel free to use whatever resources you want to complete the assignment; programming is not about having things memorized.
+You can download the data for all the questions [here](../data/pretest/). Data for each question are in the corresponding csv file, which you can load into Matlab. This is a self-assessment. You do not need to mail your answers to me, but feel free to contact me to ask questions if you're stuck. Feel free to use whatever resources you want to complete the assignment; programming is not about having things memorized.
 
 So here goes:
 
