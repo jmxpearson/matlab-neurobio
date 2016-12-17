@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: blogpost
 title: Quantitative Neurobiology
 desc: Matlab notes, assignments, and code
-ishome: yes
+post_title: Matlab readiness quiz
+author: John Pearson
+category: blog
 ---
 #Matlab readiness quiz
 
