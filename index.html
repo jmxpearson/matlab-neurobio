@@ -1,8 +1,10 @@
----
-layout: default
-title: Quantitative Neurobiology
-desc: Matlab notes, assignments, and code
-ishome: yes
----
-{% capture my_include %}{% include README.md %}{% endcapture %}
-{{ my_include | markdownify }}
+<!-- {% capture my_include %}{% include README.md %}{% endcapture %}
+{{ my_include | markdownify }} -->
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
