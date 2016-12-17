@@ -1,14 +1,13 @@
 ---
 layout: default
-title: "&lambda; Lab"
-desc: The online home of the Pearson Lab at Duke University
+title: "Quantitative Neurobiology"
 ishome: yes
 ---
 <script type="text/javascript" src="path-to-MathJax/MathJax.js"></script>
 
 {% for post in site.categories.blog %}
   <div class="blog-post">
-    <h2 class="blog-post-title">{{ post.post_title }}</h2>
+    <h1 class="blog-post-title">{{ post.post_title }}</h1>
     <p class="blog-post-meta"><font color="gray">{{ post.date | date: "%-d %B %Y" }} by </font><a href="/people.html">{{ post.author }}</a></p>
     <p>{{ post.content }}</p>
     <!-- {% capture content_words %}
