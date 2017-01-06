@@ -14,8 +14,8 @@ Traditionally, Matlab has lacked facilities for dealing with tables, but in the 
 So **before our first class**:
 
 - Make sure you have a recent version of Matlab installed and ready to go. R2016a or later is best.
-- Read Hadley Wickham's [Tidy Data](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf) paper.
+- Read Hadley Wickham's [Tidy Data](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf) paper. Don't worry about the R syntax, but do internalize the concepts. How you organize your data can make a huge difference in how easy it is to analyze later.
 
 and **before our second meeting**:
 
-- Read about [the split-apply-combine method](https://www.jstatsoft.org/htaccess.php?volume=40&type=i&issue=01&paper=true).
+- Read about [the split-apply-combine method](https://www.jstatsoft.org/htaccess.php?volume=40&type=i&issue=01&paper=true). Again, don't worry about the R syntax; focus on the analysis pattern, which generalizes across programming languages. In our second session, we'll cover Matlab's syntax for performing many of the same operations.
