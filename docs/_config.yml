@@ -2,4 +2,4 @@ theme: jekyll-theme-minimal
 collections:
     exercises:
         output: true
-        permalink: /matlab-neurobio/:collection/:name:output_ext
+        permalink: :collection/:name:output_ext

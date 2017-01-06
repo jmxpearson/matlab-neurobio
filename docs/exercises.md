@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Exercises
 permalink: exercises/
 ---
 {% assign sorted_ex = site.exercises | sort: 'week' | group_by:'week' %}
