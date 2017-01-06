@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: default
 title: Quantitative Neurobiology
 desc: Matlab notes, assignments, and code
 post_title: Matlab readiness quiz
