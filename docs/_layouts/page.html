@@ -40,18 +40,14 @@
 
         {% assign sorted_ex = site.exercises | sort: 'week' | group_by:'week' %}
         <h3>Exercises</h3>
-        <ul>
-            <li>
-                {% for week in sorted_ex %}
-                    Week {{ week.name }}
-                    <ol>
-                        {% for ex in week.items %}
-                            <li><a href="{{ ex.url }}">{{ ex.title }}</a></li>
-                        {% endfor %}
-                    </ol>
-                {% endfor %}
-            </li>
-        </ul>
+        {% for week in sorted_ex %}
+        <p>Week {{ week.name }}</p>
+        <ol>
+            {% for ex in week.items %}
+                <li><a href="{{ ex.url }}">{{ ex.title }}</a></li>
+            {% endfor %}
+        </ol>
+        {% endfor %}
 
 
       </header>
