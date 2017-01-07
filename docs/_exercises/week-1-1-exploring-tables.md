@@ -33,6 +33,9 @@ file lists the column names, also separated by commas.
 </div>
 
 ## Reformat data
+
+### Categorical
+
 One of the downsides of text formats like `.csv` is that files don't specify the type of data in each column. Programs that read such data typically use heuristics to make an educated guess. In particular, programs need some policy for deciding whether string data (e.g., "chicken") merely represent text or are categorical data (e.g., the column can only be "chicken," "duck," or "turkey"). When loading in tabular data, one often has to write boilerplate code to reinterpret some variables as categorical, others as dates, etc.
 
 <div class="question" markdown="1">
@@ -42,4 +45,15 @@ One of the downsides of text formats like `.csv` is that files don't specify the
     1. How would you specify a list of columns? What data structure would you use?
     1. How would you generalize your code from the first part to transform a single column if you were given that column in a variable? (Hint: If `colname` is a variable containing a column name and `tbl` a table, `tbl.(colname)` selects the column. This also works for structs.)
     1. How would you repeat the process for every column in the list?
+</div>
+
+### Text to numeric
+In some cases, tabular data may be read in as text when it should be coded as numeric.
+
+<div class="question" markdown="1">
+1. What type is the `cued` column? What should it be?
+
+1. Write code that converts the `cued` column to an appropriate type.
+    1. How would you convert a single value in this column?
+    1. How would you apply this to every value in the column? (Hint: `cellfun`.)
 </div>
