@@ -8,7 +8,8 @@ permalink: exercises/
 <h2>Week {{ week.name }}</h2>
 <ol>
     {% for ex in week.items %}
-        <li><a href="{{ ex.url }}">{{ ex.title }}</a></li>
+        <li>{{site.baseurl}}{{ ex.url }}</li>
+        <!-- <li><a href="{{ ex.url }}">{{ ex.title }}</a></li> -->
     {% endfor %}
 </ol>
 {% endfor %}
