@@ -57,3 +57,32 @@ In some cases, tabular data may be read in as text when it should be coded as nu
     1. How would you convert a single value in this column?
     1. How would you apply this to every value in the column? (Hint: `cellfun`.)
 </div>
+
+## Tidying data
+Many data tables are structured with multiple observations in each row, but for many analysis and visualization needs, data are better structured as one observation per row or ["tidy" data](https://www.jstatsoft.org/article/view/v059i10). While not perfect for all purposes, tidy data provides a method for canonicalizing data so that software can focus on transferring to and from a fixed form.
+
+In Matlab, the key functions for this purpose are `stack` and `unstack`. For a more full-featured approach in R, see [tidyr](https://blog.rstudio.org/2014/07/22/introducing-tidyr/).
+
+
+<div class="question" markdown="1">
+1. What changes must be made to put this dataset in tidy format?
+
+1. Write code that performs this conversion:
+    - Make sure that any new columns you introduce are named appropriately. This can be specified as extra arguments to the necessary functions.
+    - It may be tempting to write out all the columns that need to be manipulated by hand, but work toward a solution that would work if you had 20 or 50 such columns. (Hint: do the column names form a pattern? How would you get the names of all columns that follow this pattern?)
+</div>
+
+## Group-level statistics
+Having data in tidy format can facilitate easier comparisons across observation types. In Matlab, the relevant function for calculating statistics across categorical groups is `grpstats`.
+
+<div class="question" markdown="1">
+1. Use `grpstats` to calculate the mean and variance of spike counts in each epoch.
+</div>
+
+## Exploratory plotting
+For comparing data across categories, the typical visualization is a [box plot](http://www.physics.csbsju.edu/stats/box2.html) or [violin plot](https://en.wikipedia.org/wiki/Violin_plot). The former is available in Matlab, while the latter requires using third-party code.
+
+
+<div class="question" markdown="1">
+1. Create a box plot of spike count versus epoch. What do you learn about these data? What could be problematic about comparing means of these distributions, as we did earlier?
+</div>
