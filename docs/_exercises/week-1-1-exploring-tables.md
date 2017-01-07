@@ -26,4 +26,10 @@ value or `.csv` format, in which each line of the file contains a row of
 the table, with columns separated by commas. Often, the first line of the
 file lists the column names, also separated by commas.
 
-<p class="question">Load the data into Matlab</p>
+<div class="question" markdown="1">
+Load the data into Matlab. This can be done via the `readtable` function.
+
+Print the first 5 rows of the table. What are the column names? What is a way to find this out without printing the table directly (i.e., what if you had to find this out within a function)?
+</div>
+
+## Reformatting columns
