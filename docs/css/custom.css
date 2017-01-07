@@ -9,13 +9,19 @@ div.question {
     margin: 0 0 20px 0;
 }
 
-/* if we use markdown to format the question class, it adds too much
-   margin after the last element; fix this */
-div.question li:last-child p {
+/* Inside the question class, highest-level ordered lists should have:
+    - no space after the last child, which avoids too much margin at bottom
+    - space after all non-last-child, so that questions are spaced apart
+    - 2nd order and higher lists unaffected
+*/
+div.question > ol > li:last-child {
     margin: 0 0 0 0;
 }
-div.question li:first-child p {
+div.question > ol > li:not(:last-child) {
     margin: 0 0 20px 0;
+}
+div.question li p { /* in case text inside li's gets parsed as p */
+    margin: 0 0 0 0;
 }
 
 /* don't indent each question so far */
