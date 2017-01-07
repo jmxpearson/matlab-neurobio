@@ -1,0 +1,15 @@
+/* the question class formats questions in special syntax */
+div.question {
+    padding: 0.75em;
+    background-color: #eeeeee;
+    border-left-color: #39c;
+    border-width: 5px;
+    border-left-style: solid;
+    border-radius: 0em 0.5em 0.5em 0em;
+}
+
+/* if we use markdown to format the question class, it adds too much
+   margin after the last paragraph; fix this */
+div.question p:last-child {
+    margin: 0 0 0 0;
+}
