@@ -32,4 +32,15 @@ Load the data into Matlab. This can be done via the `readtable` function.
 Print the first 5 rows of the table. What are the column names? What is a way to find this out without printing the table directly (i.e., what if you had to find this out within a function)?
 </div>
 
-## Reformatting columns
+## Reformat data
+One of the downsides of text formats like `.csv` is that files don't specify the type of data in each column. Programs that read such data typically use heuristics to make an educated guess. In particular, programs need some policy for deciding whether string data (e.g., "chicken") merely represent text or are categorical data (e.g., the column can only be "chicken," "duck," or "turkey"). When loading in tabular data, one often has to write boilerplate code to reinterpret some variables as categorical, others as dates, etc.
+
+<div class="question" markdown="1">
+Which columns in the dataset should be categorical? What syntax would you use to replace this column with a categorical version of itself?
+
+Write code that allows you to make this correction for an arbitrary number of columns:
+
+1. How would you specify a list of columns? What data structure would you use?
+1. How would you generalize your code from the first part to transform a single column if you were given that column in a variable? (Hint: If `colname` is a variable containing a column name and `tbl` a table, `tbl.(colname)` selects the column. This also works for structs.)
+1. How would you repeat the process for every column in the list?
+</div>

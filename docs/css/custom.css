@@ -6,6 +6,7 @@ div.question {
     border-width: 5px;
     border-left-style: solid;
     border-radius: 0em 0.5em 0.5em 0em;
+    margin: 0 0 20px 0;
 }
 
 /* if we use markdown to format the question class, it adds too much
