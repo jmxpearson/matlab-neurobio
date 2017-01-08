@@ -16,6 +16,14 @@ So **before our first class**:
 - Make sure you have a recent version of Matlab installed and ready to go. R2016a or later is best.
 - Read Hadley Wickham's [Tidy Data](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf) paper. Don't worry about the R syntax, but do internalize the concepts. How you organize your data can make a huge difference in how easy it is to analyze later.
 - Read about [categorical arrays](https://www.mathworks.com/help/matlab/categorical-arrays.html). You should be able to define them and convert string and numeric data to them.
+- Watch a short background video about tables in Matlab:
+    <video width="100%" align="center" controls src="{{ site.videourl }}/tables.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+- and another about function handles:
+    <video width="100%" align="center" controls src="{{ site.videourl }}/function_handles.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
 
 and **before our second meeting**:
 
