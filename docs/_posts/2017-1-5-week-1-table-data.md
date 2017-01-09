@@ -28,3 +28,7 @@ So **before our first class**:
 and **before our second meeting**:
 
 - Read about [the split-apply-combine method](https://www.jstatsoft.org/htaccess.php?volume=40&type=i&issue=01&paper=true). Again, don't worry about the R syntax; focus on the analysis pattern, which generalizes across programming languages. In our second session, we'll cover Matlab's syntax for performing many of the same operations.
+- Watch this video about generalized linear models:
+    <video width="100%" align="center" controls src="{{ site.videourl }}/glm.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
