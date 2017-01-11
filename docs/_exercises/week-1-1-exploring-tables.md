@@ -41,7 +41,7 @@ One of the downsides of text formats like `.csv` is that files don't specify the
 <div class="question" markdown="1">
 1. Which columns in the dataset should be categorical? What syntax would you use to replace this column with a categorical version of itself?
 
-1. Write code that allows you to make this correction for an arbitrary number of columns:
+1. Write code that allows you to convert an arbitrary list of columns to categorical:
     1. How would you specify a list of columns? What data structure would you use?
     1. How would you generalize your code from the first part to transform a single column if you were given that column in a variable? (Hint: If `colname` is a variable containing a column name and `tbl` a table, `tbl.(colname)` selects the column. This also works for structs.)
     1. How would you repeat the process for every column in the list?
