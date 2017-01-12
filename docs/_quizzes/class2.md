@@ -25,7 +25,7 @@ author: John Pearson
     1. Normalizing each frequency band of a signal to have the same mean power.
     1. Blurring an image by applying a filter.
     1. Fitting a GLM to data from multiple experimental groups.
-    1. Removing artifacts from EEG data.
+    1. Removing artifacts from each channel of EEG data.
 
 1. For which of the following cases would you use logistic regression:
     1. Modeling white blood cell counts in an assay.
