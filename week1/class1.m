@@ -47,7 +47,7 @@ boxplot(sub_tidy.Count, sub_tidy.reward)
 % make prosocial choice column
 sub_tidy.prosocial = sub_tidy.outcome == 'other' | sub_tidy.outcome == 'both';
 
-% more group statistics and splitapply
+% more group statistics
 grpstats(sub_tidy, 'subj', 'mean', 'DataVars', 'prosocial')
 grpstats(sub_tidy, {'subj', 'reward'}, 'mean', 'DataVars', 'prosocial')
 
