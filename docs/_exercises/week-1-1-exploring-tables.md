@@ -87,4 +87,4 @@ For comparing data across categories, the typical visualization is a [box plot](
 1. Create a box plot of spike count versus epoch. What do you learn about these data? What could be problematic about comparing means of these distributions, as we did earlier?
 </div>
 
-## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week1/class1.m)
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week1/)

@@ -65,3 +65,5 @@ In these cases, it helps to write functions that perform a basic analysis so tha
 
     In a larger analysis, we might use this second variable to determine whether or not to use the returned values from the model.
 </div>
+
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week1/)
