@@ -16,7 +16,8 @@ The simplest method for estimating a firing rate for a cell is to average its sp
 
 <div class="question" markdown="1">
 1. Using the spike histogram data, compute the average spike count in each bin across trials for unit 1.
-1. Plot this as a function of time.
+1. Convert this from a mean spike count per bin to a mean firing rate.
+1. Plot the result as a function of time.
 </div>
 
 ### Smoothing
@@ -58,6 +59,7 @@ For smoothing by an arbitrary filter, Matlab has many methods available, but the
     1. Start by creating a range of times over which to define the filter. I suggest `-1000:1000`, which is 1 second on either side of 0.
     1. Pick a smoothing width. This will be the standard deviation of the distribution. I suggest 20ms to start.
     1. Create the filter. The `normpdf` function implements the classic bell curve.
+    1. Normalize your filter so that it sums to 1. This is important so that we maintain the total spike density in the time series (i.e., the sum of the smoothed signal is still the total spike count.)
     1. Plot your filter as a function of time to make sure it's right.
 
 1. Perform the smoothing. This will work just like the moving average, except you will use `conv` in place of `smooth` to generate the single-trial estimates. A few caveats:
