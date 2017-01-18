@@ -22,7 +22,7 @@ and **before our second class**:
 - Read about ["good enough" practices](https://arxiv.org/pdf/1609.00037v2.pdf) for scientific computing.
 - Read about the `patch` [command](https://www.mathworks.com/help/matlab/ref/patch.html).
 - Read about [convolutions](https://en.wikipedia.org/wiki/Convolution#Visual_explanation).
-- Watch a short video about convolutions: **coming soon**
-    <!-- <video width="100%" align="center" controls src="{{ site.videourl }}/tables.mp4" type="video/mp4">
+- Watch a short video about convolutions: 
+    <video width="100%" align="center" controls src="{{ site.videourl }}/convolutions.mp4" type="video/mp4">
 		Your browser does not support the video tag.
-	</video> -->
+	</video>
