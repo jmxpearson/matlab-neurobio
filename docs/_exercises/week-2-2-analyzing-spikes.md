@@ -78,4 +78,4 @@ As before, let's take our code for smoothing and refactor it into a function.
 1. Write a function that takes as inputs a count array of spikes and a vector representing a filter and returns single-trial firing rates in an array of the same shape as the input spikes.
 </div>
 
-<!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week1/) -->
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week2/)
