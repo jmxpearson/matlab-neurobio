@@ -6,7 +6,7 @@ ishome: yes
 {% for post in site.categories.blog %}
   <div class="blog-post">
     <h1 class="blog-post-title">{{ post.post_title }}</h1>
-    <p class="blog-post-meta"><font color="gray">{{ post.date | date: "%-d %B %Y" }} by </font><a href="/people.html">{{ post.author }}</a></p>
+    <p class="blog-post-meta"><font color="gray">{{ post.date | date: "%-d %B %Y" }} by </font>{{ post.author }}</p>
     <p>{{ post.content }}</p>
   </div>
 {% endfor %}
