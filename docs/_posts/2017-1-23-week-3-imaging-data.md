@@ -24,6 +24,7 @@ and **before our second class**:
 
 - Learn about [how to use the Matlab profiler](https://www.mathworks.com/help/matlab/matlab_prog/profiling-for-improving-performance.html).
 - Learn about [strategies for improving performance](https://www.mathworks.com/help/matlab/matlab_prog/techniques-for-improving-performance.html).
+- Learn about simple parallel computing with [parfor](https://www.mathworks.com/help/distcomp/parfor.html).
 
 <!-- - Watch a short video about convolutions:
     <video width="100%" align="center" controls src="{{ site.videourl }}/convolutions.mp4" type="video/mp4">
