@@ -29,7 +29,7 @@ hold on
 plot(dv, p_pred);
 
 % calculate image value
-img_val = -beta(1)/beta(2);
+img_val = beta(1)/beta(2);
 p_slope = coeff_table.pValue(2);
 
 % see fit_model.m for function
