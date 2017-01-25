@@ -32,7 +32,7 @@ plot(dv, p_pred);
 img_val = -beta(1)/beta(2);
 p_slope = coeff_table.pValue(2);
 
-% see fit_table.m for function
+% see fit_model.m for function
 [imvals, pvals, sessions, categories] = splitapply(@fit_model, dat, findgroups(dat.session, dat.piccat));
 mod_tbl = table(imvals, pvals, sessions, categories);
 
