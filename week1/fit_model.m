@@ -11,7 +11,7 @@ function [img_val, p_slope, sess, piccat] = fit_model(varargin)
     coeff_table = fit.Coefficients;
     beta = coeff_table.Estimate;
 
-    img_val = -beta(1)/beta(2);
+    img_val = beta(1)/beta(2);
     p_slope = coeff_table.pValue(2);
 
 end
