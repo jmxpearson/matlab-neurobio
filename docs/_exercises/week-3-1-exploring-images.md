@@ -67,6 +67,6 @@ Unfortunately, this method for finding the preferred orientation has a few probl
 - It ignores noise. (What if those two close peaks have very different uncertainties?)
 - It assumes each pixel is tuned. (What if none of the stimulus responses is different from baseline?)
 
-Next class, we'll work to remedy some of these defects. 
+Next class, we'll work to remedy some of these defects.
 
-<!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week1/) -->
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week3/)
