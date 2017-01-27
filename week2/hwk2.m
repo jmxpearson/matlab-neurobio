@@ -16,7 +16,7 @@ colwise_ooRF = unstack(out_RF, 'fr', 'coherence');
 ooRF_fr = table2array(colwise_ooRF(:, 2:end));
 
 % smooth for plotting: just like class 2 this week
-sm_wid = 120;  % std of smoothing window in ms
+sm_wid = 120;  % std of smoothing window in ms (was 60 ms in paper)
 wid = sm_wid/dt;  % window size in bins
 
 RF_fr_sm = nan(size(RF_fr));
