@@ -45,4 +45,4 @@ It's clear from both biology and the data at hand that not every pixel is even r
 1. Re-plot the data. Make sure your colors reflect that some pixels have no apparent tuning.
 </div>
 
-<!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week1/) -->
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week3/)

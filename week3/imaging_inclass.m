@@ -74,3 +74,20 @@ tcurve = tuning(2:end) - tuning(1);
 [~, peakind] = max(tcurve);
 
 preferred = orientations{peakind};
+
+%% now let's repeat for all pixels
+% pull above function into find_pixel_tuning.m
+
+preferred_img = nan(Nvert, Nhorz);
+for hh = 1:Nhorz
+    for vv = 1:Nvert
+        preferred_img(vv, hh) = find_pixel_tuning(squeeze(data(vv, hh, :)), ...
+            labels, 2e4, 3);
+    end
+end
+
+figure
+tuning_img = image(preferred_img);
+colormap([zeros(1, 3); parula(length(orientations) - 1)])
+cc = colorbar();
+cc.TickLabels = {'None', orientations{2:end}};
