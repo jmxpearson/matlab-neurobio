@@ -2,7 +2,7 @@
 layout: default
 title: Quantitative Neurobiology
 desc: Matlab notes, assignments, and code
-post_title: "Week 2: Imaging data"
+post_title: "Week 3: Imaging data"
 author: John Pearson
 category: blog
 ---
