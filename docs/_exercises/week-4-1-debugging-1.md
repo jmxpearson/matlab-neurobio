@@ -16,4 +16,8 @@ Your goal in class, using whatever means you have at your disposal, is to find a
 <div class="question" markdown="1">
 1. Fix the code. Note that not all bugs generate errors. To find some bugs, you will need to understand what the pieces of the code are trying to accomplish. Using the debugger to help you trace the code may be very helpful.
 </div>
+
+Oh, and to save your sanity, the final output should look like this:
+<img src="https://raw.githubusercontent.com/jmxpearson/matlab-neurobio/master/week4/desired_output.png"/>
+
 <!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week3/) -->
