@@ -24,6 +24,8 @@ To these, the last few years have made available another advanced technique: deb
 
 These techniques can be highly effective. No kidding. But as you do a better job of refactoring code into functions and profiling to remove bottlenecks, code can become more difficult to explore interactively without doing major surgery. That is why almost every serious program language makes available a debugger.
 
+Unfortunately, most advice about debugging tends to be language- and tool-specific. That can be helpful when you're first starting, since your primary method of learning will be generalizing from your own experience with particular bugs, and knowing how to use a good tool at that point will result in dramatic improvements. But as you do more programming, you begin to see general patterns and gain experience with tracking down subtle bugs. The first set of readings this week deal with Matlab-specific material, the second with more general debugging strategy.
+
 So **before our first class**:
 
 - Read an introduction to [Matlab's debugger](https://www.mathworks.com/help/matlab/matlab_prog/debugging-process-and-features.html)
@@ -31,4 +33,4 @@ So **before our first class**:
 
 and **before our second class**:
 
-- **TBD**
+Read [this](https://www.mathworks.com/tagteam/52430_91611v00_Upd_ProgPatterns.pdf), [this](http://www.yoda.arachsys.com/csharp/debugging.html), and  [this](https://www.cs.uky.edu/~keen/115/reading/debugging.html) for debugging strategies and tips.
