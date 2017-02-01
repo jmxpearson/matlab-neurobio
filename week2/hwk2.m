@@ -1,4 +1,5 @@
 dat = readtable('../data/week2/roitman_data.csv');
+dat = dat(dat.correct == 1, :);
 
 % calculate mean firing rate in each bin
 dt = 5;  % bin time in ms
