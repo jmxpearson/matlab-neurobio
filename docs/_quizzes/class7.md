@@ -6,6 +6,8 @@ week: 4
 part: 1
 author: John Pearson
 ---
+<!--
+Warning: question 1: you can't go lower than the breakpoint; q5: correct answers are 2 and 3!!! -->
 1. Assume you have a set of functions `foo` calls `bar` calls `baz` calls `qux`. Using the debugger, you set a breakpoint in `bar`. When the program pauses, you issue the set of commands `dbup`, `dbup`, `dbdown`, `dbdown`. What function are you then inside?
     1. `foo`
     1. `bar`
