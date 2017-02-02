@@ -20,4 +20,4 @@ Your goal in class, using whatever means you have at your disposal, is to find a
 Oh, and to save your sanity, the final output should look like this:
 <img src="https://raw.githubusercontent.com/jmxpearson/matlab-neurobio/master/week4/desired_output.png"/>
 
-<!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week3/) -->
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week4/fixed)
