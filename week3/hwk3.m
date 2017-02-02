@@ -16,10 +16,9 @@ Non = dirTuningExp.stimOnFrames;
 tstack = make_trial_stack(data, codes, Noff, Non);
 
 %% do it pixel-by-pixel
-parpool(4);
 tic
 preferred_img = nan(Nvert, Nhorz);
-parfor hh = 1:Nhorz
+for hh = 1:Nhorz
     for vv = 1:Nvert
         preferred_img(vv, hh) = find_pixel_tuning2(squeeze(tstack(vv, hh, :)), codes, 0.33);
     end
@@ -38,6 +37,18 @@ toc
 % toc
 
 % ~35s on my machine
+%% do it pixel-by-pixel
+parpool(4);
+tic
+preferred_img = nan(Nvert, Nhorz);
+parfor hh = 1:Nhorz
+    for vv = 1:Nvert
+        preferred_img(vv, hh) = find_pixel_tuning2(squeeze(tstack(vv, hh, :)), codes, 0.33);
+    end
+end
+toc
+
+% ~15s on my machine
 %% plot
 % replace nan with sentinel value -1 for plotting
 plot_img = preferred_img;
