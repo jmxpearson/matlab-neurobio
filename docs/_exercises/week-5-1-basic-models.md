@@ -38,6 +38,10 @@ Linear regression is the best-studied fitting procedure in all of statistics. He
     y = \beta_0 + \beta_1 x + \varepsilon
 \\]
 with `x` randomly (uniformly) distributed between 0 and 1, \\(\beta_0 = -1\\), \\(\beta_1 = 0.85\\), and \\(\varepsilon\\) randomly (normally) distributed with standard deviation 0.1. Make a scatterplot of these data.
+
+1. Create a function that calculates the sum of the squared residuals (errors between predicted and observed data) given a vector \\(\beta\\) of input parameters. Use Matlab's [`fminsearch`](https://www.mathworks.com/help/matlab/ref/fminsearch.html) to find the values of \\(\beta_0\\) and \\(\beta_1\\) that minimize this function.
+
+1. Plot the best-fit line through the data defined by the regression coefficients you found above.
 </div>
 
 <!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week4/fixed) -->
