@@ -10,13 +10,17 @@ In our last week on programming, we'll pivot toward the rest of the semester's m
 
 So **before our first class**:
 
+- Read about Matlab's [`fminsearch`](https://www.mathworks.com/help/matlab/ref/fminsearch.html) function.
 - Watch a video on the math behind linear regression:
-    **TBD**
-
-<!-- - Watch a short video about convolutions:
-    <video width="100%" align="center" controls src="{{ site.videourl }}/convolutions.mp4" type="video/mp4">
+    <video width="100%" align="center" controls src="{{ site.videourl }}/linear_regression.mp4" type="video/mp4">
 		Your browser does not support the video tag.
-	</video> -->
-and **before our second class**:
+	</video>
 
-Read [this](https://www.mathworks.com/tagteam/52430_91611v00_Upd_ProgPatterns.pdf), [this](http://www.yoda.arachsys.com/csharp/debugging.html), and  [this](https://www.cs.uky.edu/~keen/115/reading/debugging.html) for debugging strategies and tips.
+In the most generic case, finding the minimum of an arbitrary function \\(f(x)\\) is computationally intractable: there is no guarantee we can find the global minimum. However, in many cases of interest, special properties of \\(f(x)\\) allow us to make use of symmetries that allow for efficient solution of the problem. Much of the research on optimization involves either proving that some class of optimization problems can be reduced to another with nice mathematical properties (so optimization can be performed efficiently) or designing new optimization algorithms that solve some class of problems faster (in fewer steps or less time per step).
+
+For our second class this week, we'll focus on simply using Matlab's facilities for optimization without getting into details of the algorithms involved. That is, we'll treat these as "black box" methods that take in an function \\(f\\) and spit out an answer.
+
+So, **before our second class**:
+
+- Read about [optimizing nonlinear functions](https://www.mathworks.com/help/matlab/math/optimizing-nonlinear-functions.html)
+- Read about [curve fitting via optimization](https://www.mathworks.com/help/matlab/math/example-curve-fitting-via-optimization.html).
