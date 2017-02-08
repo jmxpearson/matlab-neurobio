@@ -36,4 +36,4 @@ Then, given observed spike counts generated from Poisson distributions based on 
 </div>
 
 
-<!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week3/) -->
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week4/fixed)
