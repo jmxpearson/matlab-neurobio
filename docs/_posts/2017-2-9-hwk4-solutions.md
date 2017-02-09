@@ -2,7 +2,7 @@
 layout: default
 title: Quantitative Neurobiology
 desc: Matlab notes, assignments, and code
-post_title: Homework 3 solutions
+post_title: Homework 4 solutions
 author: John Pearson
 category: blog
 ---
