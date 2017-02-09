@@ -44,4 +44,4 @@ with `x` randomly (uniformly) distributed between 0 and 1, \\(\beta_0 = -1\\), \
 1. Plot the best-fit line through the data defined by the regression coefficients you found above.
 </div>
 
-<!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week4/fixed) -->
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week5/)
