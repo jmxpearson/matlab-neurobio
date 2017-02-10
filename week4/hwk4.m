@@ -12,9 +12,11 @@ T = T(T < max_RT);
 histogram(T , 100);
 
 %% histogram inverse times
+% **by definition** this is a normal distribution
 histogram(1./T, 100);
 
 %% Q-Q plot
+% this will be a flat line in the case the distribution is normal
 qqplot(1./T);
 
 %% DDM trials
@@ -27,9 +29,14 @@ T = ddm(theta, mu, sigma, Ntrials);
 histogram(T , 200);
 
 %% histogram inverse times
-histogram(1./T, 100);
+% this distribution is skewed 
+histogram(1./T, 200);
 
 %% Q-Q plot
+% the pattern of deviation shows that the tails of the distribution are fat
+% (the cumulative mass of the sample is higher than the mass of the normal
+% at both ends). However, fat tails in this case don't mean "fat fat" --
+% they're approximately exponential; that's just fatter than the normal.
 qqplot(1./T);
 
 %% race model trials
@@ -44,7 +51,9 @@ T = racemodel(theta, mu1, mu2, sigma1, sigma2, Ntrials);
 histogram(T , 200);
 
 %% histogram inverse times
-histogram(1./T, 100);
+% this looks very much like the ddm
+histogram(1./T, 200);
 
 %% Q-Q plot
+% much like the ddm, but the right tail is even fatter
 qqplot(1./T);
