@@ -60,4 +60,4 @@ Our goal will be to use the observed choices and outcomes to find the most likel
 where `lb` is a vector of lower bounds and `ub` is a vector of upper bounds. If a particular variable is only constrained on one side, you can give `Inf` as the upper bound or `-Inf` as the lower bound.
 </div>
 
-<!-- ## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week4/fixed) -->
+## [Solutions](https://github.com/jmxpearson/matlab-neurobio/blob/master/week5/)
