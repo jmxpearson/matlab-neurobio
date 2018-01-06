@@ -11,4 +11,4 @@ For the last several years, particularly with the advent of [Project Jupyter](ht
 
 I encourage you to get familiar with Matlab Markup prior to the semester, since it may be useful in preparing your homeworks. The ability to mix text with code and visualization allows us to get closer to the idea of an analysis lab notebook, a practice we'll encourage you to continue outside the class.
 
-**Update (1/5/2017):** For those of you running Matlab 2016a or later, you may also want to take advantage of [Live Scripts](https://www.mathworks.com/help/matlab/matlab_prog/what-is-a-live-script.html).
+For those of you running Matlab 2016a or later, you may also want to take advantage of [Live Scripts](https://www.mathworks.com/help/matlab/matlab_prog/what-is-a-live-script.html).
