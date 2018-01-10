@@ -55,7 +55,7 @@ In some cases, tabular data may be read in as text when it should be coded as nu
 
 1. Write code that converts the `cued` column to an appropriate type.
     1. How would you convert a single value in this column?
-    1. How would you apply this to every value in the column? (Hint: `cellfun`.)
+    1. How would you apply this to every value in the column? 
 </div>
 
 ## Tidying data
