@@ -5,7 +5,7 @@ subset = (tidy.cued) == 0 & (tidy.Epoch == 'RewardOn_sp_count');
 sub_tidy = tidy(subset, :);
 
 % what percentage is this?
-mean(subset)
+mean(subset)  % NOTE: only the percent of observations, NOT trials
 
 % by reward type
 grpstats(sub_tidy, 'outcome', 'mean', 'DataVars', 'Count')
